@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body {
+            background-color: rgb(255, 246, 235);
+        }
+
+
+
+#titulo{
+            display: flex;
+            justify-content: center;
+            font-size: 500%;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+        }
+
+        .titulo1{
+            color: rgb(243, 71, 19);
+            text-decoration:underline rgb(3, 144, 187);
+
+        }
+
+        .titulo2{
+            color: rgb(187, 218, 13);
+            text-decoration:underline rgb(163, 24, 47);
+        }
+
+        
+        .titulo3{
+            color: rgb(13, 218, 64);
+            text-decoration:underline rgb(7, 159, 170);
+        }
+
+        
+        .titulo4{
+            color: rgb(30, 157, 161);
+            text-decoration:underline rgb(54, 24, 163);
+        }
+
+        
+        .titulo5{
+            color: rgb(218, 13, 201);
+            text-decoration:underline rgb(9, 153, 16);
+        }
+
+        
+        .titulo6{
+            color: rgb(218, 13, 13);
+            text-decoration:underline rgb(214, 135, 188);
+        }
+
+        
+        .titulo7{
+            color: rgb(20, 122, 153);
+            text-decoration:underline rgb(28, 51, 31);
+        }
+
+        .bora {
+            color: rgb(80, 7, 70);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:2px solid rgb(0, 124, 196);
+            padding: 20px;
+            background: url(https://img.freepik.com/foto-gratis/vista-papel-arrugado-blanco_1194-7544.jpg?w=740&t=st=1714195146~exp=1714195746~hmac=c4b0f41b91fcd98bd3440251f464a4767556153d612f3a264a2530bdd95e9c12);
+       }
+
+
+       .dot {
+        color: rgb(221, 116, 45);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(93, 190, 54);
+            border-style: dotted;
+            padding: 20px;
+
+       }
+
+
+       .dash {
+        color: rgb(12, 49, 24);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:2px solid rgb(82, 5, 71);
+            border-style: dashed;
+            padding: 20px;
+
+       }
+
+       .sol {
+        color: rgb(12, 49, 24);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 15px 50px 30px 5px;
+            border:10px solid rgb(5, 38, 82);
+            border-style: solid;
+            padding: 20px;
+       }
+
+       .doub {
+        color: rgb(12, 49, 24);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 15px 50px 30px;
+            border:10px solid rgb(47, 165, 36);
+            border-style: double;
+            padding: 20px;
+
+       }
+
+
+       .groo {
+        color: rgb(85, 60, 6);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 15px 50px;
+            border:10px solid rgb(35, 9, 150);
+            border-style: groove;
+            padding: 20px;
+
+       }
+
+       .rid {
+        color: rgb(85, 60, 6);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 50px / 15px;
+            border:10px solid rgb(26, 160, 212);
+            border-style: ridge;
+            padding: 20px;
+       }
+
+       .inse {
+        color: rgb(85, 60, 6);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(95, 11, 67);
+            border-style: inset;
+            padding: 20px;
+       }
+
+
+       .out {
+        color: rgb(85, 60, 6);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 15px / 50px;
+            border:10px solid rgb(211, 65, 8);
+            border-style: outset;
+            padding: 20px;
+       }
+
+
+       .none {
+        color: rgb(85, 60, 6);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(211, 65, 8);
+            border-style: none;
+            padding: 20px;
+       }
+
+
+       .hidd {
+        color: rgb(85, 60, 6);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(211, 65, 8);
+            border-style: hidden;
+            padding: 20px;
+       }
+
+
+
+    </style>
+
+
+
+
+</head>
+<body>
+
+
+    <div id="titulo">
+        <div class="titulo1"> B</div>
+        <div class="titulo2"> O</div>
+        <div class="titulo3"> R</div>
+        <div class="titulo4"> D</div>
+        <div class="titulo5"> E</div>
+        <div class="titulo6"> R</div>
+        <div class="titulo7"> S</div>
+    </div>
+
+    <br>
+
+    <div class="bora">
+    BORDER-RADIUS<br><Br>
+En CSS permite redondear las esquinas de los elementos HTML, como cuadros o imágenes. Se especifica un valor para definir el radio de curvatura de las esquinas, pudiendo aplicarse a todas las esquinas o a cada una de forma individual. Esto se utiliza para suavizar las esquinas y mejorar la estética visual de un diseño web.
+
+    </div>
+
+
+    <div class="dot">
+        DOTTED<br><br>
+        En CSS se utiliza para crear bordes punteados alrededor de un elemento HTML. Estos bordes consisten en una serie de puntos separados que forman una línea punteada alrededor del borde del elemento. Este estilo de borde es útil para agregar un efecto visual sutil y decorativo a los elementos en una página web, sin que el borde sea demasiado llamativo. Puedes ajustar el ancho y el color del borde, así como otros estilos de borde, para personalizar aún más la apariencia del borde punteado según tus necesidades de diseño.
+
+    </div>
+
+
+    <div class="dash">
+        DASHED <br><BR>
+        En CSS se emplea para crear bordes con un estilo de línea discontinua alrededor de un elemento HTML. Este estilo de borde consiste en una serie de segmentos de línea intercalados con espacios, creando un efecto visual de líneas cortas y segmentadas alrededor del borde del elemento. Es útil para agregar un toque de diseño interesante y distintivo a los elementos en una página web, proporcionando un aspecto más dinámico que los bordes sólidos. Al igual que con otros estilos de borde, puedes ajustar el ancho y el color del borde para adaptarlo a tus necesidades de diseño específicas.
+    </div>
+
+
+
+    <div class="sol">
+        SOLID <br><BR>
+En CSS se utiliza para crear bordes sólidos alrededor de un elemento HTML. Este estilo de borde consiste en una línea continua y uniforme que rodea el borde del elemento, proporcionando un aspecto limpio y definido. Es comúnmente utilizado para delinear y resaltar los límites de los elementos en una página web, brindando estructura visual y claridad al diseño. Puedes personalizar el ancho y el color del borde sólido según tus preferencias de diseño para lograr el efecto deseado en tu página web.
+    </div>
+
+
+    <div class="doub">
+        DOUBLE <br><BR>
+            En CSS se emplea para crear bordes con un estilo de doble línea alrededor de un elemento HTML. Este estilo de borde consiste en dos líneas paralelas que rodean el borde del elemento, creando un efecto visual distintivo y más sólido que los bordes simples. Es útil para resaltar elementos importantes o para agregar un toque decorativo y elegante al diseño de una página web. Al ajustar el ancho y el color del borde doble, puedes personalizar aún más su apariencia para que se adapte perfectamente al estilo de tu sitio web.
+    </div>
+
+
+    <div class="groo">
+        GROOVE <br><BR>
+            En CSS se emplea para crear bordes con un efecto tridimensional que da la apariencia de un surco o ranura tallada en el borde del elemento HTML. Este estilo de borde proporciona una apariencia sólida y destacada, similar a un relieve, lo que puede añadir profundidad y realce visual a los elementos en una página web. Es útil para resaltar y enfatizar áreas específicas, como botones o cuadros de texto, agregando un toque de estilo y distinción al diseño. Al ajustar el color y el grosor del borde, puedes personalizar aún más su apariencia para que se integre de manera armoniosa en el diseño general de tu sitio web.
+    </div>
+    
+
+    <div class="rid">
+        RIDGE <br><BR>
+            En CSS se utiliza para crear bordes con un efecto tridimensional que da la apariencia de un borde en relieve, como una cresta o una cordillera elevada. Este estilo de borde proporciona una apariencia sólida y destacada, similar a un relieve, lo que puede añadir profundidad y realce visual a los elementos en una página web. Es útil para resaltar y enfatizar áreas específicas, como botones o áreas de contenido importante, agregando un toque de estilo y distinción al diseño. Al ajustar el color y el grosor del borde, puedes personalizar aún más su apariencia para que se integre de manera armoniosa en el diseño general de tu sitio web.
+    </div>
+    
+
+    <div class="inse">
+        INSET <br><BR>
+            En CSS se emplea para crear bordes con un efecto visual que da la apariencia de estar incrustados o hundidos en el elemento HTML. Este estilo de borde crea una impresión de profundidad al hacer que el borde parezca estar en la parte inferior del elemento, lo que puede añadir un aspecto tridimensional y una sensación de relieve a la interfaz. Es útil para resaltar áreas de contenido o elementos de interfaz, brindando un aspecto elegante y distintivo al diseño de una página web. Al ajustar el color y el grosor del borde, puedes personalizar aún más su apariencia para que se adapte perfectamente al estilo de tu sitio web.
+    </div>
+    
+
+    <div class="out">
+        OUTSET <br><BR>
+            En CSS se utiliza para crear bordes con un efecto visual que da la apariencia de sobresalir o salir hacia afuera del elemento HTML. Este estilo de borde simula una sensación de relieve al hacer que el borde parezca estar en la parte superior del elemento, lo que puede añadir profundidad y realce visual a la interfaz. Es útil para resaltar áreas específicas de contenido o elementos de interfaz, brindando un aspecto llamativo y distintivo al diseño de una página web. Al ajustar el color y el grosor del borde, puedes personalizar aún más su apariencia para que se adapte perfectamente al estilo y la estética de tu sitio web.
+    </div>
+    
+
+    <div class="none">
+        NONE <br><BR>
+            En CSS se utiliza para eliminar completamente el borde alrededor de un elemento HTML. Cuando se aplica este estilo de borde, el elemento no mostrará ningún borde visible en absoluto, lo que puede ser útil para crear una apariencia más minimalista o para eliminar visualmente los límites entre los elementos. Es comúnmente utilizado cuando se desea eliminar cualquier adorno de borde predeterminado que pueda estar presente en ciertos elementos, permitiendo un diseño más limpio y simplificado. Sin embargo, es importante tener en cuenta que al eliminar el borde, también se elimina cualquier indicación visual de los límites del elemento, por lo que debe usarse con precaución para evitar confusiones en el diseño.
+    </div>
+    
+
+    <div class="hidd">
+        HIDDEN <br><BR>
+            En CSS se emplea para ocultar el borde alrededor de un elemento HTML sin eliminar su espacio en el diseño. A diferencia de border-style: none;, que elimina por completo el borde y su espacio, hidden oculta visualmente el borde pero mantiene su espacio en el diseño. Este estilo de borde puede ser útil cuando deseas mantener la estructura del diseño pero no quieres que el borde sea visible. Por ejemplo, podrías usarlo para ocultar temporalmente un borde que se muestra solo en ciertas condiciones o para evitar que un borde predeterminado interfiera con el diseño visual de tu página web. Es importante tener en cuenta que aunque el borde está oculto, su espacio sigue ocupando espacio en el diseño y puede afectar al diseño de la página, por lo que debes considerar cuidadosamente su uso en tu diseño.
+    </div>
+
+
+
+
+    
+</body>
+</html>

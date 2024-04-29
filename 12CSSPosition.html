@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body {
+            background-color: rgb(255, 246, 235);
+        }
+
+
+
+#titulo{
+            display: flex;
+            justify-content: center;
+            font-size: 500%;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+        }
+
+        .titulo1{
+            color: rgb(243, 71, 19);
+            text-decoration:underline rgb(3, 144, 187);
+
+        }
+
+        .titulo2{
+            color: rgb(187, 218, 13);
+            text-decoration:underline rgb(163, 24, 47);
+        }
+
+        
+        .titulo3{
+            color: rgb(13, 218, 64);
+            text-decoration:underline rgb(7, 159, 170);
+        }
+
+        
+        .titulo4{
+            color: rgb(30, 157, 161);
+            text-decoration:underline rgb(54, 24, 163);
+        }
+
+        
+        .titulo5{
+            color: rgb(218, 13, 201);
+            text-decoration:underline rgb(9, 153, 16);
+        }
+
+        
+        .titulo6{
+            color: rgb(218, 13, 13);
+            text-decoration:underline rgb(214, 135, 188);
+        }
+
+        
+        .titulo7{
+            color: rgb(20, 122, 153);
+            text-decoration:underline rgb(28, 51, 31);
+        }
+
+
+        div.bora {
+            position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: blanchedalmond;
+        }
+
+        .bora {
+            color: rgb(80, 7, 70);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:2px solid rgb(0, 124, 196);
+            padding: 20px;
+       }
+
+
+       .dot {
+        color: rgb(221, 116, 45);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(93, 190, 54);
+            border-style: dotted;
+            padding: 20px;
+
+       }
+
+
+       div.dot {
+            position: -webkit-sticky;
+  position: static;
+        }
+
+
+       .dash {
+        color: rgb(12, 49, 24);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(82, 5, 71);
+            border-style: dashed;
+            padding: 20px;
+
+       }
+
+
+       div.dash {
+              position: relative;
+              left: 5%;
+        }
+
+       .sol {
+        color: rgb(12, 49, 24);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(5, 38, 82);
+            border-style: solid;
+            background-color: rgba(127, 255, 212, 0.493);
+            padding: 20px;
+       }
+
+       div.sol {
+              position: fixed;
+              position: absolute;
+             left: 0%;
+             top: 50%;
+        }
+
+
+       .doub {
+        color: rgb(12, 49, 24);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(47, 165, 36);
+            border-style: double;
+            padding: 20px;
+
+       }
+
+       div.doub {
+              position: relative;
+        }
+
+
+
+       .groo {
+        color: rgb(85, 60, 6);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(35, 9, 150);
+            border-style: groove;
+            padding: 20px;
+
+       }
+
+       div.groo {
+              position: absolute;
+              height: 30%;
+              width: 50%;
+        }
+
+       div.sol {
+              position: relative;
+        }
+
+       .rid {
+        color: rgb(85, 60, 6);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(26, 160, 212);
+            border-style: ridge;
+            padding: 20px;
+       }
+
+       .inse {
+        color: rgb(85, 60, 6);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(95, 11, 67);
+            border-style: inset;
+            padding: 20px;
+       }
+
+
+       .out {
+        color: rgb(85, 60, 6);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(211, 65, 8);
+            border-style: outset;
+            padding: 20px;
+       }
+
+
+       .none {
+        color: rgb(85, 60, 6);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(211, 65, 8);
+            border-style: none;
+            padding: 20px;
+       }
+
+
+       .hidd {
+        color: rgb(85, 60, 6);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(211, 65, 8);
+            border-style: hidden;
+            padding: 20px;
+       }
+
+
+
+    </style>
+
+
+
+
+</head>
+<body>
+
+
+    <div id="titulo">
+        <div class="titulo1"> P</div>
+        <div class="titulo2"> O</div>
+        <div class="titulo3"> S</div>
+        <div class="titulo1"> I</div>
+        <div class="titulo4"> T</div>
+        <div class="titulo5"> I</div>
+        <div class="titulo6"> O</div>
+        <div class="titulo7"> N</div>
+    </div>
+
+    <br>
+
+    <div class="bora">
+    BORDER-RADIUS<br><Br>
+        position: static;: Es la posición predeterminada de todos los elementos HTML. Se apilan en el orden en que aparecen en el flujo normal del documento. No se ven afectados por las propiedades top, bottom, left y right.
+
+    </div>
+
+
+    <div class="dot">
+        
+        position: relative;: Establece la posición de un elemento con respecto a su posición original. Puedes moverlo utilizando las propiedades top, bottom, left y right, pero permanecerá en el flujo normal del documento, ocupando su espacio original.
+
+    </div>
+
+
+    <div class="dash">
+      
+        position: fixed;: Fija el elemento en relación con la ventana del navegador, por lo que permanece en la misma posición incluso al desplazarse la página. Es útil para elementos como barras de navegación o anuncios que deben permanecer visibles mientras se desplaza el contenido.
+    </div>
+
+
+
+    <div class="sol">
+        position: absolute;: Este posicionamiento elimina el elemento del flujo normal del documento y lo coloca en relación con su primer ancestro posicionado. Si no hay un ancestro posicionado, se fijará a la ventana del navegador. Es útil para superponer elementos.
+    </div>
+
+
+    <div class="doub">
+        position: sticky;: Combina los comportamientos de relative y fixed. Se comporta como relative hasta que el elemento alcanza un umbral definido por top, right, bottom o left, momento en el que se comporta como fixed, permaneciendo fijo en esa posición.
+    </div>
+
+
+    <div class="groo">
+        Uso Obligatorio: Cada valor de position tiene sus propios casos de uso. static es la posición predeterminada, relative se utiliza principalmente para ajustes de posicionamiento, fixed para elementos que deben permanecer en una ubicación fija en la ventana, absolute para superposiciones precisas y sticky para elementos que deben ser pegajosos dentro de un contenedor mientras se desplaza.
+    </div>
+    
+
+    <div class="rid">
+        static: A menudo no se define explícitamente, ya que es la posición predeterminada.
+    </div>
+    
+
+    <div class="inse">
+        relative: Se utiliza cuando deseas ajustar ligeramente la posición de un elemento sin afectar el diseño general.
+    </div>
+    
+
+    <div class="out">
+        fixed: Es útil para elementos de navegación o anuncios que deben permanecer visibles mientras se desplaza el contenido.
+    </div>
+    
+
+    <div class="none">
+        fixed: Es útil para elementos de navegación o anuncios que deben permanecer visibles mientras se desplaza el contenido.
+    </div>
+    
+
+    <div class="hidd">
+        sticky: Perfecto para encabezados de tabla, barras de navegación u otros elementos que deben permanecer visibles mientras se desplaza el contenido.
+    </div>
+
+
+
+
+    
+</body>
+</html>

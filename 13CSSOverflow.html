@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body {
+            background-color: rgb(255, 246, 235);
+        }
+
+
+
+#titulo{
+            display: flex;
+            justify-content: center;
+            font-size: 500%;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+        }
+
+        .titulo1{
+            color: rgb(243, 71, 19);
+            text-decoration:underline rgb(3, 144, 187);
+
+        }
+
+        .titulo2{
+            color: rgb(187, 218, 13);
+            text-decoration:underline rgb(163, 24, 47);
+        }
+
+        
+        .titulo3{
+            color: rgb(13, 218, 64);
+            text-decoration:underline rgb(7, 159, 170);
+        }
+
+        
+        .titulo4{
+            color: rgb(30, 157, 161);
+            text-decoration:underline rgb(54, 24, 163);
+        }
+
+        
+        .titulo5{
+            color: rgb(218, 13, 201);
+            text-decoration:underline rgb(9, 153, 16);
+        }
+
+        
+        .titulo6{
+            color: rgb(218, 13, 13);
+            text-decoration:underline rgb(214, 135, 188);
+        }
+
+        
+        .titulo7{
+            color: rgb(20, 122, 153);
+            text-decoration:underline rgb(28, 51, 31);
+        }
+
+        .bora {
+            color: rgb(80, 7, 70);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            border-radius: 25px;
+            border:2px solid rgb(0, 124, 196);
+            background-color: blanchedalmond;
+            padding: 20px;
+            overflow: visible;
+            height: 100px;
+            width: 800px;
+            margin: 5%;
+       }
+
+
+       .dot {
+        color: rgb(221, 116, 45);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            border-radius: 25px;
+            border:10px solid rgb(93, 190, 54);
+            border-style: dotted;
+            padding: 20px;
+            overflow: hidden;
+            margin: 5%;
+            height: 100px;
+            width: 800px;
+       }
+
+
+       .dash {
+        color: rgb(12, 49, 24);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(82, 5, 71);
+            border-style: dashed;
+            padding: 20px;
+            overflow: scroll;
+            height: 100px;
+            width: 800px;
+
+       }
+
+       .sol {
+        color: rgb(12, 49, 24);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(5, 38, 82);
+            border-style: solid;
+            padding: 20px;
+            overflow: auto;
+            height: 100px;
+            width: 800px;
+       }
+
+       .doub {
+        color: rgb(12, 49, 24);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(47, 165, 36);
+            border-style: double;
+            padding: 20px;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            height: 100px;
+            width: 800px;
+
+       }
+
+
+       .groo {
+        color: rgb(85, 60, 6);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(35, 9, 150);
+            border-style: groove;
+            padding: 20px;
+
+       }
+
+       .rid {
+        color: rgb(85, 60, 6);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(26, 160, 212);
+            border-style: ridge;
+            padding: 20px;
+       }
+
+       .inse {
+        color: rgb(85, 60, 6);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(95, 11, 67);
+            border-style: inset;
+            padding: 20px;
+       }
+
+
+       .out {
+        color: rgb(85, 60, 6);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(211, 65, 8);
+            border-style: outset;
+            padding: 20px;
+       }
+
+
+       .none {
+        color: rgb(85, 60, 6);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(211, 65, 8);
+            border-style: none;
+            padding: 20px;
+       }
+
+
+       .hidd {
+        color: rgb(85, 60, 6);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(211, 65, 8);
+            border-style: hidden;
+            padding: 20px;
+       }
+
+
+
+    </style>
+
+
+
+
+</head>
+<body>
+
+
+    <div id="titulo">
+        <div class="titulo1"> O</div>
+        <div class="titulo2"> V</div>
+        <div class="titulo3"> E</div>
+        <div class="titulo4"> R</div>
+        <div class="titulo5"> F</div>
+        <div class="titulo6"> L</div>
+        <div class="titulo7"> O</div>
+        <div class="titulo1"> W</div>
+    </div>
+
+    <br>
+
+    <div class="bora">
+        overflow: visible;: Este es el valor predeterminado. Permite que el contenido sobresalga del contenedor si es más grande que su tamaño definido. No oculta ni agrega barras de desplazamiento, lo que significa que cualquier contenido que se extienda más allá de los límites del contenedor será visible.
+
+    </div>
+
+
+    <div class="dot">
+        overflow: hidden;: Oculta cualquier contenido que se extienda más allá de los límites del contenedor. No muestra barras de desplazamiento y simplemente recorta el contenido adicional.
+
+    </div>
+
+
+    <div class="dash">
+        overflow: scroll;: Agrega barras de desplazamiento al contenedor, independientemente de si el contenido se desborda o no. Esto garantiza que el usuario siempre pueda desplazarse para ver el contenido completo, incluso si no se desborda actualmente.
+    </div>
+
+
+
+    <div class="sol">
+        overflow: auto;: Este valor automáticamente agrega barras de desplazamiento al contenedor solo cuando es necesario, es decir, cuando el contenido se desborda. Si no hay desbordamiento, no se muestran barras de desplazamiento.
+    </div>
+
+
+    <div class="doub">
+        Uso Obligatorio: Cada valor de overflow tiene su propósito específico y se utiliza según las necesidades de diseño y experiencia del usuario. visible es útil cuando no es necesario ocultar contenido y se desea que cualquier contenido excedente sea visible. hidden es útil cuando se desea ocultar contenido que se desborda.
+    </div>
+
+
+    <div class="groo">
+        visible: A menudo se usa cuando no es necesario restringir el tamaño del contenido y se quiere que cualquier exceso sea visible.
+    </div>
+    
+
+    <div class="rid">
+        hidden: Útil cuando necesitas ocultar contenido que se desborda del contenedor.
+    </div>
+    
+
+    <div class="inse">
+        scroll: Ideal para garantizar que el contenido sea siempre accesible mediante la adición de barras de desplazamiento, independientemente del tamaño del contenido.
+    </div>
+    
+
+    <div class="out">
+        auto: Perfecto para permitir que el navegador decida si se necesitan barras de desplazamiento basándose en si el contenido se desborda o no.
+    </div>
+    
+
+    <div class="none">
+        visible: A menudo se usa cuando no es necesario restringir el tamaño del contenido y se quiere que cualquier exceso sea visible.
+    </div>
+    
+
+    <div class="hidd">
+        hidden: Útil cuando necesitas ocultar contenido que se desborda del contenedor.
+    </div>
+
+
+
+
+    
+</body>
+</html>

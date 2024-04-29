@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body {
+            background-color: rgb(255, 246, 235);
+        }
+
+
+
+#titulo{
+            display: flex;
+            justify-content: center;
+            font-size: 500%;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+        }
+
+        .titulo1{
+            color: rgb(243, 71, 19);
+            text-decoration:underline rgb(3, 144, 187);
+
+        }
+
+        .titulo2{
+            color: rgb(187, 218, 13);
+            text-decoration:underline rgb(163, 24, 47);
+        }
+
+        
+        .titulo3{
+            color: rgb(13, 218, 64);
+            text-decoration:underline rgb(7, 159, 170);
+        }
+
+        
+        .titulo4{
+            color: rgb(30, 157, 161);
+            text-decoration:underline rgb(54, 24, 163);
+        }
+
+        
+        .titulo5{
+            color: rgb(218, 13, 201);
+            text-decoration:underline rgb(9, 153, 16);
+        }
+
+        
+        .titulo6{
+            color: rgb(218, 13, 13);
+            text-decoration:underline rgb(214, 135, 188);
+        }
+
+        
+        .titulo7{
+            color: rgb(20, 122, 153);
+            text-decoration:underline rgb(28, 51, 31);
+        }
+
+        .bora {
+            color: rgb(80, 7, 70);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:2px solid rgb(0, 124, 196);
+            padding: 20px;
+       }
+
+
+       .dot {
+        color: rgb(221, 116, 45);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(93, 190, 54);
+            border-style: dotted;
+            padding: 20px;
+
+       }
+
+
+       .dash {
+        color: rgb(12, 49, 24);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(82, 5, 71);
+            border-style: dashed;
+            padding: 20px;
+
+       }
+
+       .sol {
+        color: rgb(12, 49, 24);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(5, 38, 82);
+            border-style: solid;
+            padding: 20px;
+       }
+
+       .doub {
+        color: rgb(12, 49, 24);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(47, 165, 36);
+            border-style: double;
+            padding: 20px;
+
+       }
+
+
+       .groo {
+        color: rgb(85, 60, 6);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(35, 9, 150);
+            border-style: groove;
+            padding: 20px;
+
+       }
+
+       .rid {
+        color: rgb(85, 60, 6);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(26, 160, 212);
+            border-style: ridge;
+            padding: 20px;
+       }
+
+       .inse {
+        color: rgb(85, 60, 6);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(95, 11, 67);
+            border-style: inset;
+            padding: 20px;
+       }
+
+
+       .out {
+        color: rgb(85, 60, 6);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(211, 65, 8);
+            border-style: outset;
+            padding: 20px;
+       }
+
+
+       .none {
+        color: rgb(85, 60, 6);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(211, 65, 8);
+            border-style: none;
+            padding: 20px;
+       }
+
+
+       .hidd {
+        color: rgb(85, 60, 6);
+        text-align: left;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 5%;
+            border-radius: 25px;
+            border:10px solid rgb(211, 65, 8);
+            border-style: hidden;
+            padding: 20px;
+       }
+
+
+       .imagen1 {
+        height: 120px;
+            width: 200px;
+            float: left;
+        }
+
+
+        .imagen2 {
+        height: 100px;
+            width: 190px;
+            float: right;
+        }
+
+
+        .imagen3 {
+        height: 100px;
+            width: 150px;
+            float: none;
+        }
+
+
+        .imagen4 {
+        height: 100px;
+            width: 150px;
+            float: inherit;
+        }
+
+
+
+
+
+
+    </style>
+
+
+
+
+</head>
+<body>
+
+
+    <div id="titulo">
+        <div class="titulo1"> B</div>
+        <div class="titulo2"> O</div>
+        <div class="titulo3"> R</div>
+        <div class="titulo4"> D</div>
+        <div class="titulo5"> E</div>
+        <div class="titulo6"> R</div>
+        <div class="titulo7"> S</div>
+    </div>
+
+    <br>
+
+    <div class="bora"> <img src="https://img.freepik.com/foto-gratis/colores-vibrantes-que-arremolinan-caos-submarino-futurista-generado-ia_188544-9692.jpg?t=st=1713395375~exp=1713398975~hmac=64feee0be2f20213c935ba05f77a1b4c5c6ed3d4b5234027d907de618f121bac&w=740" alt="humo de varios colores" class="imagen1">
+
+        Float: En CSS, float es una propiedad que se utiliza para colocar un elemento a la izquierda o a la derecha de su contenedor, permitiendo que otros elementos fluyan alrededor de él. Esto es comúnmente utilizado para crear diseños de varias columnas y para posicionar elementos de manera flexible.
+
+    </div>
+
+
+    <div class="dot">
+        <img src="https://img.freepik.com/foto-gratis/colores-vibrantes-que-arremolinan-caos-submarino-futurista-generado-ia_188544-9692.jpg?t=st=1713395375~exp=1713398975~hmac=64feee0be2f20213c935ba05f77a1b4c5c6ed3d4b5234027d907de618f121bac&w=740" alt="humo de varios colores" class="imagen2">
+
+
+
+        float: left;: Este valor de la propiedad float coloca un elemento a la izquierda de su contenedor. Los elementos siguientes fluirán alrededor del elemento flotante en el lado derecho, si hay suficiente espacio disponible.
+
+    </div>
+
+
+    <div class="dash">
+
+        <img src="https://img.freepik.com/foto-gratis/colores-vibrantes-que-arremolinan-caos-submarino-futurista-generado-ia_188544-9692.jpg?t=st=1713395375~exp=1713398975~hmac=64feee0be2f20213c935ba05f77a1b4c5c6ed3d4b5234027d907de618f121bac&w=740" alt="humo de varios colores" class="imagen3">
+
+        float: right;: Este valor de float coloca un elemento a la derecha de su contenedor. Los elementos siguientes fluirán alrededor del elemento flotante en el lado izquierdo, si hay suficiente espacio disponible.
+    </div>
+
+
+
+    <div class="sol">
+
+
+        <img src="https://img.freepik.com/foto-gratis/colores-vibrantes-que-arremolinan-caos-submarino-futurista-generado-ia_188544-9692.jpg?t=st=1713395375~exp=1713398975~hmac=64feee0be2f20213c935ba05f77a1b4c5c6ed3d4b5234027d907de618f121bac&w=740" alt="humo de varios colores" class="imagen4">
+
+        float: none;: Este valor de float desactiva el flotado del elemento, lo que significa que el elemento no se moverá a la izquierda ni a la derecha, y otros elementos no fluirán alrededor de él.
+    </div>
+
+
+    <div class="doub">
+        inherit: Este valor indica que el elemento hereda la propiedad float de su elemento padre. Si no se define ningún valor de float en el elemento hijo, tomará el valor definido en su elemento padre.
+    </div>
+
+
+    <div class="groo">
+        Uso de Float: Se utiliza para posicionar elementos, como imágenes o bloques de texto, a la izquierda o a la derecha dentro de su contenedor, permitiendo que otros elementos fluyan alrededor de ellos y facilitando la creación de diseños flexibles y complejos.
+    </div>
+    
+
+    <div class="rid">
+        float: left;: Útil cuando se quiere que un elemento se posicione a la izquierda del contenedor, permitiendo que el contenido restante fluya alrededor de él en el lado derecho.
+    </div>
+    
+
+    <div class="inse">
+        float: right;: Perfecto para posicionar un elemento a la derecha del contenedor, permitiendo que el contenido restante fluya alrededor de él en el lado izquierdo.
+    </div>
+    
+
+    <div class="out">
+        float: none;: Útil cuando se quiere desactivar el flotado de un elemento y permitir que el contenido siguiente aparezca debajo de él en lugar de alrededor.
+    </div>
+    
+
+    <div class="none">
+        inherit: Se utiliza cuando se desea que un elemento herede la propiedad float de su elemento padre, lo que garantiza consistencia en el diseño de la página.
+    </div>
+    
+
+    <div class="hidd">
+        float: left;: Es especialmente útil para crear diseños de varias columnas donde se desea que el contenido flote a la izquierda, mientras que otros elementos ocupan el espacio restante.
+    </div>
+
+
+
+
+    
+</body>
+</html>
